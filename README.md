@@ -2,6 +2,7 @@
 
 WaveHC wave shield library. Original author: William Greiman. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.0.3. Upstream: <https://github.com/adafruit/WaveHC>.
 
+**Source last updated:** 2019-01-03  
 **Language:** C++ / Arduino  
 **Target:** Arduino (avr)  
 **Output:** Arduino library
