@@ -1,21 +1,36 @@
 # WaveHC
 
-Arduino sketch or library from the Arduino archive.
+WaveHC wave shield library. Original author: William Greiman. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.0.3. Upstream: <https://github.com/adafruit/WaveHC>.
 
-## Contents
+**Language:** C++ / Arduino  
+**Target:** Arduino (avr)  
+**Output:** Arduino library
 
-- `examples/SoftVolumeHC/SoftVolumeHC.ino`
-- `examples/openByIndex/openByIndex.ino`
-- `examples/daphc/daphc.ino`
-- `examples/SdReadTest/SdReadTest.ino`
-- `examples/PiSpeakHC/PiSpeakHC.ino`
-- `examples/SampleRateHC/SampleRateHC.ino`
-- `library.properties`
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `WaveHC` | C++ / Arduino | library | WaveHC wave shield library |
+| `PiSpeakHC` | C++ / Arduino | example sketch | `examples/PiSpeakHC/PiSpeakHC.ino` |
+| `SampleRateHC` | C++ / Arduino | example sketch | `examples/SampleRateHC/SampleRateHC.ino` |
+| `SdReadTest` | C++ / Arduino | example sketch | `examples/SdReadTest/SdReadTest.ino` |
+| `SoftVolumeHC` | C++ / Arduino | example sketch | `examples/SoftVolumeHC/SoftVolumeHC.ino` |
+| `daphc` | C++ / Arduino | example sketch | `examples/daphc/daphc.ino` |
+| `openByIndex` | C++ / Arduino | example sketch | `examples/openByIndex/openByIndex.ino` |
+
+## How to open
+
+Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/WaveHC`). Open any `examples/*.ino` from the Arduino IDE.
 
 ## Attribution and provenance
 
-- No third-party source-code attribution markers were identified in assembly/package metadata.
+- **Original author / maintainer:** William Greiman
+- **library.properties name:** WaveHC
+- **Version:** 1.0.3
+- **Upstream URL:** <https://github.com/adafruit/WaveHC>
+- **Category:** Sensors
+- This repository is Dave Robinson's working copy for catalogue/reference; authorship stays with the original authors.
 
 ## License
 
-MIT. See `LICENSE`.
+Original upstream license terms in this tree (where recorded). This repository does not claim authorship of the upstream library. See `THIRD_PARTY_NOTICES.md`. The `LICENSE` file added at import is a VaderConsulting MIT wrapper and does not replace upstream terms.
