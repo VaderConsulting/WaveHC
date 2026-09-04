@@ -23,6 +23,10 @@ WaveHC wave shield library. Original author: William Greiman. This is Dave Robin
 
 Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/WaveHC`). Open any `examples/*.ino` from the Arduino IDE.
 
+## Requirements
+
+- Arduino IDE
+
 ## Attribution and provenance
 
 - **Original author / maintainer:** William Greiman
